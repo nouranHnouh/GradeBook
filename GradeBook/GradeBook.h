@@ -1,7 +1,7 @@
 //
 //  GradeBook.h
-//  GradeBook class defination in sepereate file
-//
+//  GradeBook class definition in sepereate file.
+//this file contains the GradeBook interface without revealing the implementation of GradeBook`s memebr functions
 //  Created by Nouran Nouh on 2019-03-10.
 //  Copyright © 2019 Nouran Nouh. All rights reserved.
 //
@@ -16,28 +16,12 @@ class GradeBook
 {
     
 public:
-    //constructor initializates cpourseName with string
-    explicit GradeBook(std::string name)
-    : courseName(name)//initialize course name
-    {
-    }
     
-    // function setCourseName sets the course name to courseName
-    void setCourseName(std::string name) {
-        // store course name
-        courseName=name;
-    }
-    std::string getCourseName() const {
-        return courseName;
-    }
-    
-    void displayMessage() const
-    {
-        
-        std::cout<<"Welcome to Grade Book for \n "<< getCourseName()<<"!"<<std::endl;
-        
-    }//end function displayMessage
+    explicit GradeBook(std::string name);//constructor initializates cpourseName with string
+    void setCourseName(std::string name); // sets the course name to courseName
+    std::string getCourseName() const; //get the course name
+    void displayMessage() const; // display a welcome message
 private:
-    std::string courseName;
+    std::string courseName; // course name for GradeBook 
 }; //end class GradeBook
 

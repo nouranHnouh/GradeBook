@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C988BB71223086F8002C4A2D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C988BB70223086F8002C4A2D /* main.cpp */; };
+		C988BB7D223883E0002C4A2D /* GradeBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C988BB7B223883E0002C4A2D /* GradeBook.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		C988BB6D223086F8002C4A2D /* GradeBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GradeBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		C988BB70223086F8002C4A2D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C988BB7A2235E8AE002C4A2D /* GradeBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeBook.h; sourceTree = "<group>"; };
+		C988BB7B223883E0002C4A2D /* GradeBook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GradeBook.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				C988BB70223086F8002C4A2D /* main.cpp */,
 				C988BB7A2235E8AE002C4A2D /* GradeBook.h */,
+				C988BB7B223883E0002C4A2D /* GradeBook.cpp */,
 			);
 			path = GradeBook;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C988BB7D223883E0002C4A2D /* GradeBook.cpp in Sources */,
 				C988BB71223086F8002C4A2D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

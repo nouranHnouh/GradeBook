@@ -21,6 +21,7 @@ public:
     void setCourseName(std::string name); // sets the course name to courseName
     std::string getCourseName() const; //get the course name
     void displayMessage() const; // display a welcome message
+    void determineClassAverage() const; // average of class grades 
 private:
     std::string courseName; // course name for GradeBook 
 }; //end class GradeBook

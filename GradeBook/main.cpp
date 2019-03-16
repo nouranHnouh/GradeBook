@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include "GradeBook.h"
+#include <climits>
 using namespace std;
 
 
@@ -17,15 +18,16 @@ using namespace std;
 
 int main()
 {
-    string courseName;
+    cout<<"INT_MIN :"<<INT_MIN<<endl;
+    cout<<"INT_MAX :"<<INT_MAX<<endl;
+    
     // create GradeBook object
     GradeBook gradeBook1("Math2004 Introduction to calculus");
-    GradeBook gradeBook2("Stat3006 statics");
     
-    //dipslay intial course name
-
-    cout<<"gradeBook1 is created for course: "<<gradeBook1.getCourseName()
-        <<"\ngradeBook2 creatd for course: "<<gradeBook2.getCourseName()<<endl;
-
+    
+    //dipslay welcome Message
+    gradeBook1.displayMessage();
+    //determine class Avegrage 
+    gradeBook1.determineClassAverage(); 
 
 }//end main 

@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		C945379B231DB44500F5FFAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C945379A231DB44500F5FFAF /* main.cpp */; };
 		C9736CA723267F30006DD6F9 /* GradeBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9736CA623267F30006DD6F9 /* GradeBook.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C9453795231DB44500F5FFAF /* CopyFiles */ = {
+=======
+		C988BB71223086F8002C4A2D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C988BB70223086F8002C4A2D /* main.cpp */; };
+		C988BB7D223883E0002C4A2D /* GradeBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C988BB7B223883E0002C4A2D /* GradeBook.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C988BB6B223086F8002C4A2D /* CopyFiles */ = {
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		C9453797231DB44500F5FFAF /* GradeBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GradeBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		C945379A231DB44500F5FFAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C9736CA5232170DD006DD6F9 /* GradeBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeBook.h; sourceTree = "<group>"; };
@@ -32,6 +42,16 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		C9453794231DB44500F5FFAF /* Frameworks */ = {
+=======
+		C988BB6D223086F8002C4A2D /* GradeBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GradeBook; sourceTree = BUILT_PRODUCTS_DIR; };
+		C988BB70223086F8002C4A2D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C988BB7A2235E8AE002C4A2D /* GradeBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeBook.h; sourceTree = "<group>"; };
+		C988BB7B223883E0002C4A2D /* GradeBook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GradeBook.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C988BB6A223086F8002C4A2D /* Frameworks */ = {
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +61,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		C945378E231DB44500F5FFAF = {
 			isa = PBXGroup;
 			children = (
@@ -53,16 +74,39 @@
 			isa = PBXGroup;
 			children = (
 				C9453797231DB44500F5FFAF /* GradeBook */,
+=======
+		C988BB64223086F8002C4A2D = {
+			isa = PBXGroup;
+			children = (
+				C988BB6F223086F8002C4A2D /* GradeBook */,
+				C988BB6E223086F8002C4A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C988BB6E223086F8002C4A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C988BB6D223086F8002C4A2D /* GradeBook */,
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		C9453799231DB44500F5FFAF /* GradeBook */ = {
 			isa = PBXGroup;
 			children = (
 				C945379A231DB44500F5FFAF /* main.cpp */,
 				C9736CA5232170DD006DD6F9 /* GradeBook.h */,
 				C9736CA623267F30006DD6F9 /* GradeBook.cpp */,
+=======
+		C988BB6F223086F8002C4A2D /* GradeBook */ = {
+			isa = PBXGroup;
+			children = (
+				C988BB70223086F8002C4A2D /* main.cpp */,
+				C988BB7A2235E8AE002C4A2D /* GradeBook.h */,
+				C988BB7B223883E0002C4A2D /* GradeBook.cpp */,
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			);
 			path = GradeBook;
 			sourceTree = "<group>";
@@ -70,6 +114,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		C9453796231DB44500F5FFAF /* GradeBook */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C945379E231DB44500F5FFAF /* Build configuration list for PBXNativeTarget "GradeBook" */;
@@ -77,6 +122,15 @@
 				C9453793231DB44500F5FFAF /* Sources */,
 				C9453794231DB44500F5FFAF /* Frameworks */,
 				C9453795231DB44500F5FFAF /* CopyFiles */,
+=======
+		C988BB6C223086F8002C4A2D /* GradeBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C988BB74223086F8002C4A2D /* Build configuration list for PBXNativeTarget "GradeBook" */;
+			buildPhases = (
+				C988BB69223086F8002C4A2D /* Sources */,
+				C988BB6A223086F8002C4A2D /* Frameworks */,
+				C988BB6B223086F8002C4A2D /* CopyFiles */,
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			);
 			buildRules = (
 			);
@@ -84,54 +138,92 @@
 			);
 			name = GradeBook;
 			productName = GradeBook;
+<<<<<<< HEAD
 			productReference = C9453797231DB44500F5FFAF /* GradeBook */;
+=======
+			productReference = C988BB6D223086F8002C4A2D /* GradeBook */;
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		C945378F231DB44500F5FFAF /* Project object */ = {
+=======
+		C988BB65223086F8002C4A2D /* Project object */ = {
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Nouran Nouh";
 				TargetAttributes = {
+<<<<<<< HEAD
 					C9453796231DB44500F5FFAF = {
+=======
+					C988BB6C223086F8002C4A2D = {
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
+<<<<<<< HEAD
 			buildConfigurationList = C9453792231DB44500F5FFAF /* Build configuration list for PBXProject "GradeBook" */;
+=======
+			buildConfigurationList = C988BB68223086F8002C4A2D /* Build configuration list for PBXProject "GradeBook" */;
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
+<<<<<<< HEAD
 			mainGroup = C945378E231DB44500F5FFAF;
 			productRefGroup = C9453798231DB44500F5FFAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C9453796231DB44500F5FFAF /* GradeBook */,
+=======
+			mainGroup = C988BB64223086F8002C4A2D;
+			productRefGroup = C988BB6E223086F8002C4A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C988BB6C223086F8002C4A2D /* GradeBook */,
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		C9453793231DB44500F5FFAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C9736CA723267F30006DD6F9 /* GradeBook.cpp in Sources */,
 				C945379B231DB44500F5FFAF /* main.cpp in Sources */,
+=======
+		C988BB69223086F8002C4A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C988BB7D223883E0002C4A2D /* GradeBook.cpp in Sources */,
+				C988BB71223086F8002C4A2D /* main.cpp in Sources */,
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		C945379C231DB44500F5FFAF /* Debug */ = {
+=======
+		C988BB72223086F8002C4A2D /* Debug */ = {
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +281,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		C945379D231DB44500F5FFAF /* Release */ = {
+=======
+		C988BB73223086F8002C4A2D /* Release */ = {
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +336,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		C945379F231DB44500F5FFAF /* Debug */ = {
+=======
+		C988BB75223086F8002C4A2D /* Debug */ = {
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -248,7 +348,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		C94537A0231DB44500F5FFAF /* Release */ = {
+=======
+		C988BB76223086F8002C4A2D /* Release */ = {
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,25 +363,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		C9453792231DB44500F5FFAF /* Build configuration list for PBXProject "GradeBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C945379C231DB44500F5FFAF /* Debug */,
 				C945379D231DB44500F5FFAF /* Release */,
+=======
+		C988BB68223086F8002C4A2D /* Build configuration list for PBXProject "GradeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C988BB72223086F8002C4A2D /* Debug */,
+				C988BB73223086F8002C4A2D /* Release */,
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		C945379E231DB44500F5FFAF /* Build configuration list for PBXNativeTarget "GradeBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C945379F231DB44500F5FFAF /* Debug */,
 				C94537A0231DB44500F5FFAF /* Release */,
+=======
+		C988BB74223086F8002C4A2D /* Build configuration list for PBXNativeTarget "GradeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C988BB75223086F8002C4A2D /* Debug */,
+				C988BB76223086F8002C4A2D /* Release */,
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD
 	rootObject = C945378F231DB44500F5FFAF /* Project object */;
+=======
+	rootObject = C988BB65223086F8002C4A2D /* Project object */;
+>>>>>>> 83e2824d566bac82ca71ed3b3dc6528770d673ef
 }

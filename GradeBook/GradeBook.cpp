@@ -3,7 +3,7 @@
 //  GradeBook has implementation of GradeBook Functions
 //
 //  Created by Nouran Nouh on 2019-03-12.
-//  Copyright © 2019 Nouran Nouh. All rights reserved.
+//  from C++ How to Program
 //
 
 #include <iostream>
